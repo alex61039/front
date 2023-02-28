@@ -1,0 +1,10 @@
+export { default as AboutUs } from './AboutUs/AboutUs';
+export { default as Agreement } from './AgreementPages/Agreement';
+export { default as Agreement2 } from './AgreementPages/Agreement2';
+export { default as CompareProposal } from './CompareProposal/CompareProposal';
+export { default as Contacts } from './Contacts/Contacts';
+export { default as CustomerProposal } from './CustomerProposal/CustomerProposal';
+export { default as Home } from './Home/Home';
+export { default as Personal } from './Personal/Personal';
+export { default as ProviderProposal } from './ProviderProposal/ProviderProposals';
+export { default as Settings } from './Settings/Settings';

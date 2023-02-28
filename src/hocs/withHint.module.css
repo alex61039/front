@@ -1,0 +1,20 @@
+.hint {
+  position: relative;
+}
+
+.hint__menu {
+  position: absolute;
+  z-index: 99999;
+  top: auto;
+  left: -10000px;
+  padding: 16px 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+  background: #ffffff;
+  color: #000000;
+  font-size: 12px;
+}
+
+.hint__menu__hidden {
+  visibility: hidden;
+}

@@ -1,0 +1,36 @@
+.page {
+    font-size: large;
+    line-height: 26px;
+    text-align: justify;
+    padding-top: 60px;
+    color: #212529;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 37px;
+}
+
+.contact {
+    margin-bottom: 1rem;
+}
+
+.contact p:first-child {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 7vw;
+        padding-bottom: 2em;
+        padding-top: 0;
+    }
+    .page {
+        padding-top: 80px;
+        padding-left: 21px;
+        padding-right: 21px;
+        font-size: 1em;
+    }
+}

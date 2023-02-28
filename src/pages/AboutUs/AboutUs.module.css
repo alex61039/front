@@ -1,0 +1,30 @@
+.page {
+    font-size: large;
+    line-height: 26px;
+    text-align: justify;
+    padding-top: 60px;
+    color: #212529;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 2em;
+}
+
+.text p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 7vw;
+    }
+    .page {
+        padding-top: 80px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+}

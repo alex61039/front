@@ -1,0 +1,43 @@
+.settingHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 1em;
+}
+
+
+.myOrders {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+}
+
+.settingsContainer span {
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.settingsContainer {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .settingHeader > a > .ant-btn-round.ant-btn-lg {
+        position: initial;
+    }
+
+    .settingsContainer span {
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    .settingsContainer > button > span:nth-child(2) {
+        display: none;
+    }
+
+    .settingHeader {
+        padding-bottom: 0;
+    }
+}

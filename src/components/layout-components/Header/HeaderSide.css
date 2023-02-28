@@ -1,0 +1,112 @@
+.bm-burger-button {
+    display: none;
+    position: fixed;
+    width: 30px;
+    height: 23px;
+    left: 21px;
+    top: 23px;
+}
+
+.bm-burger-bars {
+    background: #373a47;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 75%!important;
+}
+
+.bm-menu {
+    background: #373a47;
+    padding: 2.5em 0.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: white;
+    padding: 0.8em;
+}
+
+.bm-item {
+    display: inline-block;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-item-list a {
+    color: white;
+}
+
+.bm-item-list a:visited {
+    text-decoration: none;
+    color: inherit !important;
+    transition: none;
+}
+
+.bm-item-list a:hover {
+    color: #caccff !important;
+}
+
+.menu-item {
+    display: block;
+    font-size: 16px;
+    padding: 1em 0;
+}
+
+.menu-item:hover {
+    color: #caccff;
+}
+
+.link-text {
+    padding-left: 1em;
+}
+
+.menu-item-name {
+    color: #fff !important;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.mobile_header_container {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+}
+
+.header_title {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 900;
+    line-height: 23px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 992px) {
+    .bm-burger-button {
+        display: flex;
+    }
+
+}

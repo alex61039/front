@@ -1,0 +1,27 @@
+.password_block > .ant-input-affix-wrapper {
+    height: 38px!important;
+}
+
+.password_block > .ant-input-affix-wrapper > .ant-input {
+    height: 100%!important;
+}
+
+.ant-form .Settings_bigTitle__3HFdW {
+    line-height: 0;
+    height: 48px;
+}
+
+.ant-form .Settings_bigTitle__3HFdW > span {
+    margin-top: 24px;
+}
+
+.Settings_inputGroupItem__1KPzZ > .ant-form-item  {
+    min-width: 100%;
+}
+
+@media (max-width: 992px) {
+    .ant-form .Settings_bigTitle__3HFdW {
+        line-height: normal;
+        margin: 1em 0;
+    }
+}

@@ -1,0 +1,104 @@
+/*.ant-table-tbody > tr:nth-child(2) > td {
+    border-top: 1px solid #b1b1b1 !important;
+}*/
+
+.contacts_table > .ant-spin-nested-loading > .ant-spin-container > .ant-table > .ant-table-container > .ant-table-content > table > thead > tr > th:first-child {
+    font-weight: 700 !important;
+    color: #212529;
+}
+
+.table-compare-container {
+    width: fit-content;
+}
+
+.ant-table-tbody > tr > td, .ant-table-thead > tr > th {
+    padding: 0 1em !important;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.ant-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.ant-table-tbody > tr > td:first-child {
+    text-align: left !important;
+    white-space: normal;
+}
+
+.ant-table-tbody > tr > td:nth-child(2) {
+    text-align: left !important;
+}
+
+.ant-table-tbody > tr > td:nth-child(3) {
+    text-align: left !important;
+}
+
+.ant-table-thead {
+    padding: 12px 0 !important;
+    line-height: 27px !important;
+}
+
+.delivery_table > .ant-spin-nested-loading > .ant-spin-container > .ant-table > .ant-table-container > .ant-table-content > table > tbody > tr:nth-child(3) > td:first-child {
+    font-weight: 700 !important;
+    color: #212529;
+}
+
+.delivery_table > .ant-spin-nested-loading > .ant-spin-container > .ant-table > .ant-table-container > .ant-table-content > table > thead > tr:nth-child(2) > th {
+    font-size: 12px !important;
+}
+
+.ant-tooltip-inner {
+    box-shadow: none !important;
+    border: 1px solid #F2F2F2 !important;
+}
+
+.ant-table.ant-table-small .ant-table-tbody > tr > td {
+    padding: 3px 8px;
+    height: 30px !important;
+}
+
+.ant-table.ant-table-small .ant-table-thead > tr > th {
+    padding: 2px 8px;
+}
+
+.ant-tooltip-arrow-content {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    display: none;
+}
+.table-label {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+
+
+.jumpingCart {
+    animation: bounce 1S cubic-bezier(.10, .30, .25, .90) infinite!important;
+}
+
+@keyframes bounce {
+    from, to {
+        transform: translate(0,0px)!important;
+        -webkit-transform: translate(0,0px)!important;
+        -o-transform: translate(0,0px)!important;
+        -moz-transform: translate(0,0px)!important;
+    }
+    60% {
+        transform: translate(0, -10px)!important;
+        -webkit-transform: translate(0, -10px)!important;
+        -o-transform: translate(0, -10px) !important;
+        -moz-transform: translate(0, -10px) !important;
+    }
+    100% {
+        transform: translate(0, -2px);
+        -webkit-transform: translate(0, -2px);
+        -o-transform: translate(0, -2px);
+        -moz-transform: translate(0, -2px);
+    }
+}

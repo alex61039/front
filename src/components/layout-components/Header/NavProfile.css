@@ -1,0 +1,121 @@
+.nav-profile {
+    width: 14.5rem;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+    border-bottom: none!important;
+}
+.nav-profile-header {
+    padding: .7rem 1rem;
+    border-bottom: 1px solid #e6ebf1;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+    color: inherit;
+    border-bottom: 0;
+}
+
+.nav-profile .nav-profile-body {
+    padding: .625rem 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+
+.text-muted {
+    color: rgba(114, 132, 154, .7) !important;
+}
+
+.pl-3 {
+    padding-left: 1rem !important;
+}
+
+.nav-dropdown {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+    border-radius: .625rem;
+}
+
+.link-reg {
+    display: flex;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+}
+
+.ant-menu-horizontal {
+    border-bottom: none;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+    color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.ant-menu-item {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+}
+
+.ant-menu-item:hover {
+    margin: 0 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    border-bottom: none !important;
+}
+
+.ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu {
+    border: none !important;
+    margin: 0 !important;
+}
+
+.navArrow {
+    padding-left: 10px;
+    color: black!important;
+}
+
+.ant-menu-item-active {
+    color: red!important;
+}
+
+.user-name-dropdown {
+    padding-right: 1em;
+    color: black;
+    margin: 0 !important;
+    font-size: 1.3em;
+}
+
+.header-right {
+    display: flex;
+    cursor: pointer;
+}
+
+.link-reg:first-child {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 3px solid #000;
+}
+
+.nav-profile .nav-profile-body .ant-menu-vertical > .ant-menu-item {
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child), .ant-menu-vertical .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.dir-ltr .mr-3, .dir-ltr .mx-3 {
+    margin-right: 1rem !important;
+}

@@ -1,0 +1,43 @@
+.submit_button_container {
+  display: flex;
+  align-items: center;
+}
+
+.submit_button {
+  display: flex;
+  background: #918aff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 15px 25px;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.1s linear;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.submit_button:hover {
+  background-color: #746cff;
+}
+
+.submit_button .loading {
+  padding-left: .5em;
+}
+
+@media (max-width: 992px) {
+  .submit_button {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .submit_button_container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.centered {
+  text-align: center;
+}

@@ -1,0 +1,212 @@
+.settings {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.settingsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.myOrders {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+}
+
+.settingsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.settingsContainer span {
+    padding-right: 10px;
+    font-size: 16px;
+    color: #212529;
+}
+
+.bigTitle {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.inputGroupPrepend {
+    display: flex;
+    align-items: center;
+}
+
+.btwJst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputGroupText {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    height: 100%;
+}
+
+.changeUserInfoGroupItems {
+    padding: 10px 0;
+}
+
+.inputGroupItem {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.inputGroupItem input, .inputGroupItem select {
+    height: 38px !important;
+}
+
+textArea {
+    max-height: 300px;
+    min-height: 110px !important;
+}
+
+.inputDescription {
+    width: 100%;
+    padding: 7px 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #505050;
+}
+
+#password1, #password2 {
+    height: 20px !important;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.passwordBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkboxesItem {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.checkboxesItem span {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.eye.active {
+    opacity: 1;
+}
+
+.mainStyleBtn {
+    background-color: #494580;
+    border-color: #494580;
+    color: #fff;
+}
+
+.formItem {
+    width: 100%;
+}
+
+.btn {
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+    border: 1px solid transparent;
+    height: 38px;
+    width: 114px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    float: right;
+    margin: 0;
+}
+
+.btn:hover {
+    background-color: #5b55b0;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+@media (max-width: 992px) {
+    .settings {
+        padding: 80px 0;
+    }
+
+    .settingsContainer > button > span:nth-child(2) {
+        display: none;
+    }
+
+    .settingsContainer span {
+        padding-right: 0;
+    }
+
+    .inputGroupPrepend {
+        padding-top: .5em;
+    }
+
+    .inputGroupItem input, .inputGroupItem select {
+        position: initial!important;
+    }
+
+    .inputDescription {
+        padding: 4px 0;
+    }
+
+    .inputGroupItem > .inputDescription > .ant-form-item-control > div{
+        position: initial!important;
+    }
+
+    .settingsHeader > a > button {
+        position: initial!important;
+    }
+    .bigTitle {
+        font-size: 1.5em;
+    }
+
+    .settingsHeader {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .inputGroupText {
+        padding: 0 0.75rem;
+    }
+    .btwJst {
+        display: block;
+    }
+
+    .bigTitle span {
+        margin-bottom: 0;
+    }
+
+    .bigTitle {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}

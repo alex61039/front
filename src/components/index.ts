@@ -1,0 +1,17 @@
+export { default as Footer } from './layout-components/Footer/Footer';
+export { default as Header } from './layout-components/Header/Header';
+export { default as NavProfile } from './layout-components/Header/NavProfile';
+export { default as About } from './shared-components/About/About';
+export { default as ConfirmEmail } from './shared-components/ConfirmEmail/ConfirmEmail';
+export { default as Loader } from './shared-components/Loader/Loader';
+export { default as Loading } from './shared-components/Loading';
+export { default as ModalsWrapperControl } from './shared-components/Modals/ModalsWrapperControl';
+export { default as ModalFade } from './shared-components/Modals/ModalFade';
+export { default as ConfirmEmailModal } from './shared-components/Modals/ConfirmEmail/ConfirmEmailModal';
+export { default as LoginModal } from './shared-components/Modals/LoginModal/LoginModal';
+export { default as PopUp } from './shared-components/Modals/PopUp/PopUp';
+export { default as PopUps } from './shared-components/Modals/PopUp/PopUps';
+export { default as RegModal } from './shared-components/Modals/RegModal/RegModal';
+export { default as RemindPasswordModal } from './shared-components/Modals/RemindPassword/RemindPasswordModal';
+export { default as SuccessOrder } from './shared-components/Modals/SuccessOrder/SuccesOrder';
+export { default as RemindPass } from './shared-components/RemindPass/RemindPass';

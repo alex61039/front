@@ -1,0 +1,17 @@
+.fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s ease;
+}
+
+.fade.active {
+    opacity: 0.4;
+    visibility: visible;
+}

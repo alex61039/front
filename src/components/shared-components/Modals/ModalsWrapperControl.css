@@ -1,0 +1,24 @@
+.ant-modal-content {
+    border-radius: .3rem;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.ant-modal-header {
+    border-radius: .3rem;
+}
+
+.ant-input {
+    height: 1.5em;
+    padding: 4px 11px;
+}
+
+.input-custom {
+    height: calc(1.5em + .75rem + 2px);
+}
+
+@media (max-width: 992px) {
+    .ant-modal-body {
+        width: 100% !important;
+    }
+}

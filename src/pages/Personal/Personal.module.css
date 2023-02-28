@@ -1,0 +1,146 @@
+.personal {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hide_tabs {
+    visibility: hidden;
+}
+
+.settingsContainer span {
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.staticTabPane {
+    position: static !important;
+}
+
+.initialTabPane {
+    position: static !important;
+}
+
+.settingHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.settingHeader a {
+    color: #212529;
+}
+
+.settingsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.myOrders {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+}
+
+.ordersList {
+    font-weight: 400;
+    color: #212529;
+    text-align: left;
+}
+
+.alert {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alertPrimary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.orderOption {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #cfcfcf;
+    border-radius: 4px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.orderOption a:hover {
+    color: #000;
+}
+
+.orderStatus span {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.orderOptionText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.repeat_btn, .ant-btn {
+    padding: 4px !important;
+    height: 40px;
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+.counter {
+    float: right;
+    font-size: 12px;
+    color: #272727;
+    width: 100%;
+    padding-bottom: 1em;
+    text-align: right;
+}
+
+.provider_selector {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 992px) {
+    .orderOption {
+        height: 100%;
+    }
+
+    .personal {
+        width: 100%;
+        padding: 0 21px;
+    }
+
+    .ant-pagination {
+        padding-bottom: 1em !important;
+    }
+
+    .ant-btn-round.ant-btn-lg {
+        position: initial !important;
+    }
+
+    .orderOptionText {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .orderOption {
+        position: initial;
+        padding: 4px 10px;
+    }
+
+
+}

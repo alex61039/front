@@ -1,0 +1,77 @@
+input[type="radio"] {
+    width: 20px;
+    height: 38px;
+}
+
+.eye {
+    position: absolute;
+    top: 32px;
+    right: 5px;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.eye.active {
+    opacity: 1;
+}
+
+.checkbox_container {
+    flex-wrap: nowrap;
+    padding: 10px 0;
+
+}
+
+input[name="email"] {
+    margin-bottom: 0;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.checkboxes {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.checkbox_item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.checkbox_img {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 15px;
+}
+
+.checkbox_img img {
+    margin-bottom: 7px;
+}
+
+.checkbox_material {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 0;
+    color: #212529;
+}
+
+.extra_menu {
+    padding: 1em 0;
+}
+
+.checkbox_material input {
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .captcha {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

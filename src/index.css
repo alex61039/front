@@ -1,0 +1,294 @@
+@import '~antd/dist/antd.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > td {
+  border-right: none !important;
+}
+
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr:first-child > th {
+  border-bottom: none !important;
+}
+
+.ant-table-cell {
+  height: 30px;
+}
+
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr:not(:last-child) > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr:not(:last-child) > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > thead > tr:not(:last-child) > th {
+  border-bottom: none !important;
+  border-top: 2px solid #cacaca !important;
+}
+
+.ant-select-selector, .ant-select-selection-overflow-item {
+  height: 34px !important;
+}
+
+.ant-select-selector {
+  border: 1px solid #7b7b7b !important;
+}
+
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr:nth-child(2) > th {
+  font-size: 12px !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0 !important;
+  transition: background 0.3s;
+  font-size: 13px !important;
+}
+
+.ant-table-tbody > tr > th {
+  font-size: 13px !important;
+}
+
+.ant-tooltip-inner {
+  padding: 0 !important;
+  font-family: "Arial Обычный", "Arial", sans-serif;
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled){
+  background-color: rgba(167, 167, 167, 0.4) !important;
+}
+
+.ant-tooltip > .ant-tooltip-content > .ant-tooltip-arrow > span {
+  border: 1px solid darkgray;
+}
+
+.ant-table-small .ant-table-thead > tr > th {
+  background-color: white !important;
+}
+
+.ant-table-measure-row {
+  display: none !important;
+}
+
+.ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ant-table-container {
+  border-left: none !important;
+}
+
+.ant-table-thead > tr > th {
+  background: white !important;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+.ant-tooltip {
+  max-width: 400px !important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+.ant-tooltip-inner {
+  border-radius: 5px !important;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #272727;
+  transition: none;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  background: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.ant-form-item-required {
+  width: 100% !important;
+  padding: 7px 0;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #505050 !important;
+}
+
+.ant-form-item-label label {
+  margin-bottom: 0;
+  height: 26px !important;
+  width: 100% !important;
+  padding: 7px 0;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #505050 !important;
+}
+
+.ant-modal-body {
+  padding: 12px 24px !important;
+}
+
+.ant-input {
+  height: 38px !important;
+}
+
+.input-custom {
+  height: calc(1.5em + .75rem + 2px) !important;
+}
+
+.ant-input-affix-wrapper {
+  padding: 0 11px !important;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+  text-align: left;
+}
+
+.input-custom input {
+  height: 28px !important;
+}
+
+.ant-form-item div {
+  width: 100% !important;
+}
+
+.ant-form-item-required:before {
+  width: 175px;
+  padding: 7px 0;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #505050 !important;
+  content: none !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+body.fix {
+  overflow: hidden;
+  padding-right: 16px;
+
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.ant-form-item-label > label {
+  width: 100% !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #505050 !important;
+  padding: 7px 0 !important;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+  width: 100% !important;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  content: '';
+}
+
+.ant-form-item-explain, .ant-form-item-extra {
+  font-size: 11px;
+}
+
+.ant-input[disabled] {
+  border-color: #747474;
+  background-color: inherit;
+}
+
+.ant-input[disabled]:hover {
+  border-color: #747474;
+}
+
+
+@media (max-width: 992px) {
+  .loader {
+    width: 100% !important;
+    height: 40px !important;
+  }
+
+  .ant-btn-round.ant-btn-lg {
+    position: initial !important;
+  }
+
+  .ant-picker-panels {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  .ant-picker-panel-container {
+    width: 75% !important;
+    margin: 0 auto !important;
+    min-width: 280px;
+  }
+
+  .ant-picker-range-arrow {
+    display: none !important;
+  }
+}

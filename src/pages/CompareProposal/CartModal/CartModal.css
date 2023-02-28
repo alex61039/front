@@ -1,0 +1,26 @@
+.cart_table {
+    border: 1px solid #dee2e6 !important;
+    border-top: 1px solid rgb(177 177 177) !important;
+    max-height: 600px;
+}
+
+.cart_table > .ant-spin-nested-loading > .ant-spin-container > .ant-table > .ant-table-container > .ant-table-content > table > thead > tr > th {
+    border-right: 1px solid #dee2e6 !important;
+    border-bottom: none;
+}
+
+.cart_table > .ant-spin-nested-loading > .ant-spin-container > .ant-table > .ant-table-container > .ant-table-content > table > tbody > tr > td {
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.cart_table input[type='number']::-webkit-inner-spin-button {
+    opacity: 1
+}
+.cart_table .ant-input {
+    min-height: 20px !important;
+}
+.cart_table .anticon {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 8px;
+}

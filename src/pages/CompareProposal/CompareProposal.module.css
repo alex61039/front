@@ -1,0 +1,266 @@
+.page {
+    padding: 20px;
+    font-family: "Arial Полужирный", "Arial Обычный", "Arial", sans-serif;
+}
+
+.addToCart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.addToCart_button {
+    cursor: pointer;
+}
+
+.addToCart_button img {
+    width: 20px;
+    height: 20px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #918aff;
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.left_scroll_btn {
+    height: auto;
+    display: flex;
+    color: #000;
+    width: 20px;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    border-left: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    min-width: 30px;
+    justify-content: center;
+    white-space: pre;
+    transform: rotate(180deg);
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+.contactTableContainer {
+    min-width: min-content;
+    overflow-x: auto;
+}
+.pdfIcon {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.contactTable {
+    width: 100%;
+}
+
+.contactTable > tr > td {
+    min-width: 100px !important;
+}
+
+.contactTable > tr {
+    height: 30px;
+    border-top: 1px solid #dee2e6;
+}
+
+.contactTable > tr > th {
+    padding: 0 13px !important;
+}
+
+.contactTable > tr > td {
+    padding: 0 13px !important;
+}
+
+.contactTable tr:first-child {
+    height: 50px !important;
+}
+
+.textAreaComment {
+    height: 120px;
+    resize: none;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 8px 0 !important;
+}
+
+.pdfTextBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pdfTextBlock span {
+    display: flex;
+    font-size: 12px;
+    padding-top: 3px;
+    width: 100%;
+}
+
+.pdfTextBlock div {
+    font-weight: 700;
+}
+
+.revert_scroll_btn_span {
+    transform: rotate(270deg);
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+}
+
+.left_scroll_btn_arrow {
+    position: absolute;
+    bottom: 50%;
+    transform: rotate(-180deg);
+}
+
+.left_scroll_btn_arrow, .rotated_arrow {
+    transition: .4s ease-in-out;
+}
+
+.rotated_arrow {
+    transform: rotate(-0deg);
+}
+
+.tooltip_header {
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    background: #F2F2F2;
+    padding: 5px 40px 5px 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.tooltip > .tooltip_value {
+    padding: 10px;
+    color: black;
+}
+
+.tooltip {
+    border-radius: 5px;
+}
+
+.plusBtn_container {
+    display: flex;
+}
+
+.disabled, .disabled > svg, .disabled > span:nth-child(2) {
+    cursor: not-allowed;
+    color: #909294;
+    pointer-events: none;
+}
+
+.plusBtn_container span:first-child {
+    padding-right: 0.3em;
+    cursor: pointer;
+}
+
+.plusBtn_container span:first-child:hover {
+    color: #1890ff;
+    transition: .25s ease-in-out;
+}
+
+.plusBtn_container span:first-child svg {
+    height: 17px;
+    width: 17px;
+}
+
+
+.plusBtn_container span:nth-child(2) {
+    text-align: left;
+}
+
+.eye svg {
+    width: 17px;
+    height: 17px;
+}
+
+.eye:hover {
+    color: #1890ff;
+    transition: .25s ease-in-out;
+}
+
+.compare-table-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tableWithLeftArrowContainer {
+    display: flex;
+}
+
+.tableWithLeftArrowContainer :global(.ant-table-content) {
+    max-height: 500px;
+    overflow: auto !important;
+}
+
+.tableWithLeftArrowContainer :global(.ant-table-thead) {
+    position: sticky;
+    top: 0;
+    background: #eee;
+    z-index: 3;
+}
+
+.tableWithLeftArrowContainer :global(.ant-table-thead th) {
+    line-height: revert;
+    white-space: pre;
+}
+
+.table_title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    max-width: 1556px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.table_title_collapsed {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    max-width: 1232px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+.cart img {
+    cursor: pointer;
+}
+
+.column {
+    background: red !important;
+}
+
+.ant-table-cell {
+    max-height: 30px !important;
+}
+
+.best_price_p {
+    line-height: 1em;
+    margin-bottom: 5px;
+    min-height: 15px;
+}
